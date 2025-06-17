@@ -1,74 +1,114 @@
-/* style.css */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="CIFFA NGO - Empowering communities through sustainable development and social change.">
+  <title>CIFFA NGO | Empowering Communities</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-700">CIFFA NGO</h1>
+      <nav class="space-x-6 text-sm">
+        <a href="#about" class="hover:text-blue-500">About</a>
+        <a href="#projects" class="hover:text-blue-500">Projects</a>
+        <a href="#news" class="hover:text-blue-500">News</a>
+        <a href="#contact" class="hover:text-blue-500">Contact</a>
+        <a href="#donate" class="bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700">Donate</a>
+      </nav>
+    </div>
+  </header>
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-  color: #333;
-}
+  <!-- Hero Section -->
+  <section class="bg-blue-100 py-20 text-center">
+    <div class="max-w-2xl mx-auto">
+      <h2 class="text-4xl font-bold mb-4">Empowering Communities, Changing Lives</h2>
+      <p class="mb-6">CIFFA is a non-profit organization focused on sustainable development, health, and education for underprivileged communities.</p>
+      <a href="#donate" class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition">Support Our Mission</a>
+    </div>
+  </section>
 
-header {
-  background-color: #d4edda;
-  text-align: center;
-  padding: 20px;
-  border-bottom: 4px solid #a8d5ba;
-}
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-4">
+      <h3 class="text-3xl font-semibold text-center mb-6">Who We Are</h3>
+      <p class="text-lg text-center text-gray-700">
+        CIFFA (Community Initiative for Fair & Free Advancement) is committed to uplifting underserved communities through impactful programs in health, education, and social inclusion. Our approach is grassroots and people-centered.
+      </p>
+    </div>
+  </section>
 
-header .logo {
-  width: 100px;
-  height: auto;
-  margin-bottom: 10px;
-}
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-semibold text-center mb-10">Our Projects</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-bold mb-2">Rural Health Clinics</h4>
+          <p>Providing mobile clinics and access to medical supplies in remote areas.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-bold mb-2">Girls' Education Program</h4>
+          <p>Scholarships, mentorship, and safe spaces to promote female education.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+          <h4 class="text-xl font-bold mb-2">Sustainable Farming</h4>
+          <p>Training local farmers in eco-friendly agricultural practices and market access.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-h1 {
-  margin: 0;
-  color: #006400;
-}
+  <!-- News Section -->
+  <section id="news" class="py-16 bg-white">
+    <div class="max-w-5xl mx-auto px-4">
+      <h3 class="text-3xl font-semibold text-center mb-10">Latest News</h3>
+      <ul class="space-y-6">
+        <li class="border-b pb-4">
+          <h5 class="text-xl font-semibold">CIFFA Receives National Award for Community Impact</h5>
+          <p class="text-gray-600 text-sm">June 2025</p>
+          <p class="text-gray-700">We’re honored to be recognized for our contribution to rural development. Read about our journey.</p>
+        </li>
+        <!-- More news items -->
+      </ul>
+    </div>
+  </section>
 
-section {
-  padding: 40px 20px;
-  border-bottom: 1px solid #eee;
-}
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gray-100">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-3xl font-semibold text-center mb-6">Get in Touch</h3>
+      <form class="grid md:grid-cols-2 gap-4 bg-white p-6 rounded shadow">
+        <input type="text" placeholder="Your Name" class="border p-2 rounded" required>
+        <input type="email" placeholder="Your Email" class="border p-2 rounded" required>
+        <textarea placeholder="Your Message" class="border p-2 rounded col-span-2" rows="5"></textarea>
+        <button type="submit" class="bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-700 col-span-2">Send Message</button>
+      </form>
+    </div>
+  </section>
 
-h2 {
-  color: #2e8b57;
-  margin-bottom: 10px;
-}
+  <!-- Donate Section -->
+  <section id="donate" class="py-16 bg-blue-700 text-white text-center">
+    <div class="max-w-2xl mx-auto px-4">
+      <h3 class="text-3xl font-bold mb-4">Make a Difference</h3>
+      <p class="mb-6">Every donation helps bring change to the lives of those who need it most.</p>
+      <a href="https://donate.example.com" class="bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-gray-100">Donate Now</a>
+    </div>
+  </section>
 
-ul {
-  list-style-type: disc;
-  padding-left: 20px;
-}
-
-button {
-  background-color: #32cd32;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin: 10px 10px 0 0;
-  cursor: pointer;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-button:hover {
-  background-color: #28a745;
-}
-
-a {
-  color: #2e8b57;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #f9f9f9;
-  color: #888;
-  font-size: 14px;
-}
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8 mt-10">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between">
+      <p>&copy; 2025 CIFFA NGO. All rights reserved.</p>
+      <div class="space-x-4">
+        <a href="#" class="hover:underline">Privacy Policy</a>
+        <a href="#" class="hover:underline">Terms of Use</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
