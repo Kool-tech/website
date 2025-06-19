@@ -2,156 +2,120 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Each One Educate One – Empowering learners and building brighter futures through community education.">
-  <title>Each One Educate One</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CIFFA NGO | Empower Through Education</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" href="logo.png" />
 </head>
-<body class="bg-gray-50 text-gray-900 flex flex-col min-h-screen">
+<body class="bg-white text-gray-800 font-sans">
 
-  <!-- Header -->
-  <header class="bg-white shadow sticky top-0 z-50">
-    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-      <a href="#" class="text-2xl font-bold text-indigo-600">Each One Educate One</a>
-      <nav class="hidden md:flex space-x-6">
-        <a href="#about" class="hover:text-indigo-500">About</a>
-        <a href="#programs" class="hover:text-indigo-500">Programs</a>
-        <a href="#testimonials" class="hover:text-indigo-500">Testimonials</a>
-        <a href="#get-involved" class="hover:text-indigo-500">Get Involved</a>
-        <a href="#contact" class="hover:text-indigo-500">Contact</a>
-        <a href="#donate" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700">Donate</a>
+  <!-- Header with Logo -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center">
+        <img src="logo.png" alt="CIFFA Logo" class="h-12 w-auto mr-3" />
+        <span class="text-2xl font-bold text-indigo-600">CIFFA</span>
+      </div>
+      <nav class="hidden md:flex space-x-6 text-sm">
+        <a href="#about" class="hover:text-indigo-600">About Us</a>
+        <a href="#projects" class="hover:text-indigo-600">Projects</a>
+        <a href="#impact" class="hover:text-indigo-600">Impact</a>
+        <a href="#donate" class="hover:text-indigo-600 font-semibold">Donate</a>
       </nav>
-      <button class="md:hidden" id="menu-btn" aria-label="Open menu">
-        <svg width="24" height="24" fill="none" stroke="currentColor">
-          <path d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-      </button>
     </div>
-    <!-- Mobile Menu -->
-    <nav id="mobile-menu" class="md:hidden hidden bg-white border-t">
-      <a href="#about" class="block px-4 py-2 hover:bg-gray-100">About</a>
-      <a href="#programs" class="block px-4 py-2 hover:bg-gray-100">Programs</a>
-      <a href="#testimonials" class="block px-4 py-2 hover:bg-gray-100">Testimonials</a>
-      <a href="#get-involved" class="block px-4 py-2 hover:bg-gray-100">Get Involved</a>
-      <a href="#contact" class="block px-4 py-2 hover:bg-gray-100">Contact</a>
-      <a href="#donate" class="block px-4 py-2 bg-indigo-600 text-white text-center">Donate</a>
-    </nav>
   </header>
 
-  <!-- Hero -->
-  <section class="hero bg-indigo-100 flex-grow py-20 text-center">
-    <div class="max-w-2xl mx-auto px-4">
-      <h1 class="text-4xl md:text-5xl font-bold text-indigo-800 mb-4">Each One Educate One</h1>
-      <p class="text-lg text-indigo-700 mb-6">Empowering every learner, one education at a time.</p>
-      <a href="#get-involved" class="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-indigo-700">
-        Join Our Mission
-      </a>
+  <!-- Hero Section -->
+  <section class="bg-indigo-600 text-white text-center py-20 px-6">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Empowering Communities Through Education</h1>
+      <p class="text-lg md:text-xl mb-6">Join CIFFA in making education accessible to every child and adult in need.</p>
+      <a href="#donate" class="inline-block bg-white text-indigo-600 px-6 py-3 rounded-full font-medium hover:bg-gray-100 transition">Donate Now</a>
     </div>
   </section>
 
-  <!-- About -->
-  <section id="about" class="py-16 bg-white">
-    <div class="max-w-5xl mx-auto px-4">
-      <h2 class="text-3xl font-semibold text-center text-indigo-600 mb-6">About Us</h2>
-      <p class="text-center text-gray-700 leading-relaxed">
-        Each One Educate One is dedicated to bridging educational gaps by connecting mentors with learners in underserved communities. We believe in the power of community-led learning and sustainable impact.
-      </p>
+  <!-- About Section -->
+  <section id="about" class="py-16 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-indigo-700 mb-4">Who We Are</h2>
+      <p class="max-w-3xl mx-auto text-gray-600">CIFFA is a nonprofit organization focused on uplifting underserved communities through education, vocational training, and mentorship programs.</p>
     </div>
   </section>
 
-  <!-- Programs -->
-  <section id="programs" class="py-16 bg-gray-50">
-    <div class="max-w-6xl mx-auto px-4">
-      <h2 class="text-3xl font-semibold text-center text-indigo-600 mb-10">Our Programs</h2>
-      <div class="grid gap-8 md:grid-cols-3">
-        <div class="bg-white rounded shadow p-6 hover:shadow-lg transition">
-          <h3 class="text-xl font-bold mb-2">Mentorship</h3>
-          <p class="text-gray-700">One-on-one mentorship pairing volunteer tutors with eager learners.</p>
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 px-6 bg-white">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold text-indigo-700 text-center mb-12">Our Projects</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-md transition">
+          <h3 class="text-xl font-semibold mb-2">Rural Education Drive</h3>
+          <p class="text-gray-600">Building schools and distributing learning materials in remote regions.</p>
         </div>
-        <div class="bg-white rounded shadow p-6 hover:shadow-lg transition">
-          <h3 class="text-xl font-bold mb-2">After‑School Tutoring</h3>
-          <p class="text-gray-700">Support sessions for students in math, science, and language arts.</p>
+        <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-md transition">
+          <h3 class="text-xl font-semibold mb-2">Girls in STEM</h3>
+          <p class="text-gray-600">Empowering girls with coding and robotics training in underprivileged areas.</p>
         </div>
-        <div class="bg-white rounded shadow p-6 hover:shadow-lg transition">
-          <h3 class="text-xl font-bold mb-2">Digital Literacy</h3>
-          <p class="text-gray-700">Classes and workshops teaching essential computer and digital skills.</p>
+        <div class="bg-gray-100 p-6 rounded-lg shadow hover:shadow-md transition">
+          <h3 class="text-xl font-semibold mb-2">Adult Literacy Campaign</h3>
+          <p class="text-gray-600">Providing basic reading and writing education to adults and seniors.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Testimonials -->
-  <section id="testimonials" class="py-16 bg-white">
-    <div class="max-w-5xl mx-auto px-4">
-      <h2 class="text-3xl font-semibold text-center text-indigo-600 mb-10">Testimonials</h2>
-      <div class="space-y-8">
-        <blockquote class="bg-gray-100 p-6 rounded shadow">
-          <p class="italic text-gray-800">“Thanks to Each One Educate One, I was able to finish high school and now I'm studying engineering.”</p>
-          <footer class="mt-4 text-right text-gray-600">— Sarah, Student</footer>
-        </blockquote>
-        <blockquote class="bg-gray-100 p-6 rounded shadow">
-          <p class="italic text-gray-800">“Volunteering as a tutor has been incredibly rewarding—I see real progress in my students every week.”</p>
-          <footer class="mt-4 text-right text-gray-600">— Raj, Mentor</footer>
-        </blockquote>
+  <!-- Impact Section -->
+  <section id="impact" class="bg-indigo-50 py-20 px-6 text-center">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold text-indigo-700 mb-8">Our Impact</h2>
+      <div class="grid md:grid-cols-3 gap-8 text-indigo-700 font-semibold">
+        <div>
+          <p class="text-4xl">10K+</p>
+          <p>Students Educated</p>
+        </div>
+        <div>
+          <p class="text-4xl">500+</p>
+          <p>Communities Reached</p>
+        </div>
+        <div>
+          <p class="text-4xl">1M+</p>
+          <p>Donations Raised</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Get Involved -->
-  <section id="get-involved" class="py-16 bg-indigo-50 text-center">
-    <div class="max-w-4xl mx-auto px-4">
-      <h2 class="text-3xl font-semibold text-indigo-600 mb-4">Get Involved</h2>
-      <p class="mb-6 text-gray-700">Become a mentor, volunteer for our programs, or partner with us to create educational equity.</p>
-      <a href="#contact" class="bg-indigo-600 text-white px-5 py-3 rounded hover:bg-indigo-700">
-        Volunteer or Partner
-      </a>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="py-16 bg-white">
-    <div class="max-w-4xl mx-auto px-4">
-      <h2 class="text-3xl font-semibold text-center text-indigo-600 mb-6">Contact Us</h2>
-      <form class="grid gap-4 md:grid-cols-2">
-        <input type="text" name="name" placeholder="Your Name" required class="border rounded px-3 py-2">
-        <input type="email" name="email" placeholder="Your Email" required class="border rounded px-3 py-2">
-        <textarea name="message" rows="5" placeholder="Your Message" required class="border rounded px-3 py-2 md:col-span-2"></textarea>
-        <button type="submit" class="md:col-span-2 bg-indigo-600 text-white py-3 rounded font-semibold hover:bg-indigo-700">
-          Send Message
-        </button>
-      </form>
-    </div>
-  </section>
-
-  <!-- Donate -->
-  <section id="donate" class="py-16 bg-indigo-600 text-white text-center">
-    <div class="max-w-2xl mx-auto px-4">
-      <h2 class="text-3xl font-bold mb-4">Support Our Cause</h2>
-      <p class="mb-6">Your donations provide resources and scholarship opportunities for learners.</p>
-      <a href="https://donate.eachoneeducateone.org" class="bg-white text-indigo-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-100">
-        Donate Now
-      </a>
+  <!-- Donate Call to Action -->
+  <section id="donate" class="py-20 bg-indigo-600 text-white text-center px-6">
+    <div class="max-w-3xl mx-auto">
+      <h2 class="text-3xl font-bold mb-4">Support Our Mission</h2>
+      <p class="mb-6 text-lg">Your contribution can change a life. Every donation goes directly to our education programs.</p>
+      <a href="#" class="inline-block bg-white text-indigo-700 font-semibold px-8 py-3 rounded-full hover:bg-gray-100 transition">Donate Today</a>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-800 text-gray-300 py-8">
-    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
-      <p>&copy; 2025 Each One Educate One. All rights reserved.</p>
-      <div class="flex space-x-4 mt-4 md:mt-0">
-        <a href="/privacy" class="hover:underline">Privacy Policy</a>
-        <a href="/terms" class="hover:underline">Terms of Use</a>
+  <footer class="bg-gray-900 text-gray-300 py-10">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-6 text-sm">
+      <div>
+        <h4 class="font-semibold text-white mb-2">CIFFA NGO</h4>
+        <p>Creating inclusive futures through accessible education.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-2">Contact</h4>
+        <p>Email: contact@ciffango.org</p>
+        <p>Phone: +1 555-123-4567</p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-2">Follow Us</h4>
+        <div class="flex gap-4">
+          <a href="#" class="hover:text-white">Facebook</a>
+          <a href="#" class="hover:text-white">Twitter</a>
+          <a href="#" class="hover:text-white">LinkedIn</a>
+        </div>
       </div>
     </div>
+    <div class="text-center text-xs text-gray-500 mt-8">&copy; 2025 CIFFA NGO. All rights reserved.</div>
   </footer>
 
-  <script>
-    // Mobile menu toggle
-    document.getElementById('menu-btn').addEventListener('click', () => {
-      const menu = document.getElementById('mobile-menu');
-      menu.classList.toggle('hidden');
-    });
-  </script>
 </body>
 </html>
